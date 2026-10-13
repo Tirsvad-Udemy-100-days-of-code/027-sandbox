@@ -1,0 +1,36 @@
+# Doxygen configuration for day27-sandbox.
+# Build with:  doxygen Doxyfile
+# HTML is written to docs/api/html (ignored by git).
+
+PROJECT_NAME           = "day27-sandbox"
+PROJECT_BRIEF          = "Udemy 100 Days of Code, day 27: Tkinter, *args and **kwargs"
+OUTPUT_DIRECTORY       = docs/api
+CREATE_SUBDIRS         = NO
+INPUT                  = src README.md
+FILE_PATTERNS          = *.py *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+
+# Python source
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTENSION_MAPPING      = py=Python
+AUTOLINK_SUPPORT       = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+JAVADOC_AUTOBRIEF      = YES
+PYTHON_DOCSTRING       = YES
+
+# Output
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+GENERATE_TREEVIEW      = YES
+SOURCE_BROWSER         = YES
+HAVE_DOT               = NO
+
+# Quiet unless something is wrong
+QUIET                  = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO

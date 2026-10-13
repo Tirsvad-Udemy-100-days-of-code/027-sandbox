@@ -1,0 +1,67 @@
+# Continuous integration for day27-sandbox: lint, type-check and test.
+#
+# Triggers: a push to main, and every pull request that changes code,
+#   configuration or this workflow.
+# Inputs:   none. Secrets: none. Changes outside the repository: nothing.
+# Decision: MIL-001 task "Add CI workflow" (docs/milestones/mil-001-foundation.md).
+# Host:     Gitea Actions. Verified on Gitea 1.27.3: run 1133 of pull request 22
+#   executed this workflow on the `ubuntu-latest` runner and passed
+#   (QC-WF-001 criterion 22). The commands also run unchanged on GitHub Actions.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "src/**"
+      - "tests/**"
+      - "pyproject.toml"
+      - ".yamllint.yml"
+      - ".gitea/workflows/**"
+
+# A newer run of the same branch replaces an older one.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.13"
+
+jobs:
+  test:
+    name: Lint, type-check and test
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install the project and its development tools
+        run: python -m pip install -e ".[dev]"
+
+      - name: Lint with ruff
+        run: python -m ruff check .
+
+      - name: Check formatting with ruff
+        run: python -m ruff format --check .
+
+      - name: Type-check with mypy
+        run: python -m mypy src tests
+
+      - name: Lint YAML files
+        run: python -m yamllint .yamllint.yml .gitea/workflows
+
+      - name: Run the tests
+        run: python -m pytest

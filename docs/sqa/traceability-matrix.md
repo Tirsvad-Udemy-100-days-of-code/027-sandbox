@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added MIL-001 code and workflow rows (RC-007 to RC-009) | [061612b] |
 
 ---
 
@@ -29,12 +30,15 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-001] | MIL | en | it | [BC-001], [PP-001] | - | [RC-004] |
 | [MIL-002] | MIL | en | it | [BC-001], [PP-001], [MIL-001] | - | [RC-005] |
 | [MIL-003] | MIL | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-006] |
+| [PY-001] | PY | - | - | [MIL-001] | - | [RC-007] |
+| [WF-001] | WF | - | - | [MIL-001] | - | [RC-008] |
+| [YML-001] | YML | - | - | [MIL-001] | [WF-001] | [RC-009] |
 
 ## Coverage Notes
 
 - `-` in Upstream means foundational; in Downstream it means nothing is built on it yet.
 - No use case, domain model or design artifacts exist: the work is plain technical tasks (see the milestones).
-- Source code rows are added when the code is reviewed.
+- Source code rows are added when the code is reviewed: `PY-001` is `src/day27` and `tests/` of MIL-001; `WF-001` and `YML-001` are the CI workflow and the YAML files.
 
 ---
 
@@ -51,3 +55,10 @@ updated whenever an artifact instance is created or reviewed.
 [RC-005]: ./reviews/rc-005-mil-002-day27-solutions.md
 [RC-006]: ./reviews/rc-006-mil-003-docs-wiki.md
 [2124708]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2124708c4b82960e3cc16134c177d420936098be
+[PY-001]: ../../src/day27
+[WF-001]: ../../.gitea/workflows/ci.yml
+[YML-001]: ../../.gitea/workflows/ci.yml
+[RC-007]: ./reviews/rc-007-python-source.md
+[RC-008]: ./reviews/rc-008-ci-workflow.md
+[RC-009]: ./reviews/rc-009-yaml-files.md
+[061612b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/061612baf4f8778b8e7895079e49fca90acf3801
