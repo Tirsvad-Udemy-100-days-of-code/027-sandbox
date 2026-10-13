@@ -1,24 +1,18 @@
 # Continuous integration for day27-sandbox: lint, type-check and test.
 #
-# Triggers: a push to main and every pull request that changes code,
+# Triggers: a push to main, and every pull request that changes code,
 #   configuration or this workflow.
 # Inputs:   none. Secrets: none. Changes outside the repository: nothing.
 # Decision: MIL-001 task "Add CI workflow" (docs/milestones/mil-001-foundation.md).
-# Host:     Gitea Actions. The runner label `ubuntu-latest` and the tools are
-#   not verified on this instance (QC-WF-001 criterion 22); a first run on the
-#   host confirms them. The commands also run unchanged on GitHub Actions.
+# Host:     Gitea Actions. Verified on Gitea 1.27.3: run 1133 of pull request 22
+#   executed this workflow on the `ubuntu-latest` runner and passed
+#   (QC-WF-001 criterion 22). The commands also run unchanged on GitHub Actions.
 
 name: CI
 
 on:
   push:
     branches: [main]
-    paths:
-      - "src/**"
-      - "tests/**"
-      - "pyproject.toml"
-      - ".yamllint.yml"
-      - ".gitea/workflows/**"
   pull_request:
     paths:
       - "src/**"
