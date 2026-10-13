@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added MIL-001 code and workflow rows (RC-007 to RC-009) | [061612b] |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added MIL-001 code and workflow rows (RC-007 to RC-009) | [061612b] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added MIL-002 source row (RC-010) | [9646336] |
 
 ---
 
@@ -32,6 +32,7 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-003] | MIL | en | it | [BC-001], [PP-001], [MIL-002] | - | [RC-006] |
 | [PY-001] | PY | - | - | [MIL-001] | - | [RC-007] |
 | [WF-001] | WF | - | - | [MIL-001] | - | [RC-008] |
+| [PY-002] | PY | - | - | [MIL-002] | - | [RC-010] |
 | [YML-001] | YML | - | - | [MIL-001] | [WF-001] | [RC-009] |
 
 ## Coverage Notes
@@ -54,7 +55,6 @@ updated whenever an artifact instance is created or reviewed.
 [RC-004]: ./reviews/rc-004-mil-001-foundation.md
 [RC-005]: ./reviews/rc-005-mil-002-day27-solutions.md
 [RC-006]: ./reviews/rc-006-mil-003-docs-wiki.md
-[2124708]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2124708c4b82960e3cc16134c177d420936098be
 [PY-001]: ../../src/day27
 [WF-001]: ../../.gitea/workflows/ci.yml
 [YML-001]: ../../.gitea/workflows/ci.yml
@@ -62,3 +62,6 @@ updated whenever an artifact instance is created or reviewed.
 [RC-008]: ./reviews/rc-008-ci-workflow.md
 [RC-009]: ./reviews/rc-009-yaml-files.md
 [061612b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/061612baf4f8778b8e7895079e49fca90acf3801
+[PY-002]: ../../src/day27
+[RC-010]: ./reviews/rc-010-python-source-mil-002.md
+[9646336]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/9646336c349432fc1c58b7f5c6ce42b426490407

@@ -29,6 +29,9 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+# Descriptor-level capture makes Tcl fail intermittently to read init.tcl on
+# Windows, so Tkinter tests would be flaky; capture at the sys level only.
+addopts = ["--capture=sys"]
 
 [tool.ruff]
 line-length = 88
