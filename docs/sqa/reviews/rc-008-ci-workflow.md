@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [061612b] |
 
 ---
 
@@ -65,3 +65,4 @@ Go — All Mandatory criteria pass; two Optional criteria are N-A with a reason.
 
 [WF-001]: ../../.gitea/workflows/ci.yml
 [QC-WF-001]: ../../../framework/qc/code/qc-workflow.md
+[061612b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/061612baf4f8778b8e7895079e49fca90acf3801

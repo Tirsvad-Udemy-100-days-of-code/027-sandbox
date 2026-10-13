@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added MIL-001 code and workflow rows (RC-007 to RC-009) | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added MIL-001 code and workflow rows (RC-007 to RC-009) | [061612b] |
 
 ---
 
@@ -61,3 +61,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-007]: ./reviews/rc-007-python-source.md
 [RC-008]: ./reviews/rc-008-ci-workflow.md
 [RC-009]: ./reviews/rc-009-yaml-files.md
+[061612b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/061612baf4f8778b8e7895079e49fca90acf3801
