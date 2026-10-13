@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
 
 ---
 
@@ -75,8 +75,9 @@ stakeholder IDs. It uses the power/interest grid.
 
 | Stakeholder | Role | Date |
 | --- | --- | --- |
-| S01 | Product Owner and reviewer | pending |
+| S01 | Product Owner and reviewer | [2124708] |
 
 ---
 
 [BC-001]: ./business-case.md
+[2124708]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2124708c4b82960e3cc16134c177d420936098be

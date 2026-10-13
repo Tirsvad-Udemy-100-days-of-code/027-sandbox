@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
 
 ---
 
@@ -50,3 +50,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-004]: ./reviews/rc-004-mil-001-foundation.md
 [RC-005]: ./reviews/rc-005-mil-002-day27-solutions.md
 [RC-006]: ./reviews/rc-006-mil-003-docs-wiki.md
+[2124708]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2124708c4b82960e3cc16134c177d420936098be
