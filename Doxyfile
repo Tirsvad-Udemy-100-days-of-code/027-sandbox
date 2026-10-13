@@ -6,10 +6,9 @@ PROJECT_NAME           = "day27-sandbox"
 PROJECT_BRIEF          = "Udemy 100 Days of Code, day 27: Tkinter, *args and **kwargs"
 OUTPUT_DIRECTORY       = docs/api
 CREATE_SUBDIRS         = NO
-INPUT                  = src README.md
-FILE_PATTERNS          = *.py *.md
+INPUT                  = src
+FILE_PATTERNS          = *.py
 RECURSIVE              = YES
-USE_MDFILE_AS_MAINPAGE = README.md
 
 # Python source
 OPTIMIZE_OUTPUT_JAVA   = YES
