@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-pytest.importorskip("tkinter")
+pytest.importorskip("tkinter", exc_type=ImportError)
 
 import tkinter as tk  # noqa: E402  # must follow the importorskip guard
 
