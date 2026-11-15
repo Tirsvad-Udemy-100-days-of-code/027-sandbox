@@ -1,6 +1,6 @@
-# Kom i gang
+[English](Getting-Started) · **Dansk** · [Bahasa Melayu](Getting-Started-ms)
 
-🌐 [English](Getting-Started) · **Dansk** · [Bahasa Melayu](Getting-Started-ms)
+# Kom i gang
 
 ## Du skal bruge
 

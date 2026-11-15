@@ -55,6 +55,6 @@ Go — All 16 criteria pass; the deviation of `calculate` returning its result i
 
 ---
 
-[PY-002]: ../../src/day27
+[PY-002]: ../../../src/day27
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [9646336]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/9646336c349432fc1c58b7f5c6ce42b426490407

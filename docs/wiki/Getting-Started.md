@@ -1,6 +1,6 @@
-# Getting started
+**English** · [Dansk](Getting-Started-da) · [Bahasa Melayu](Getting-Started-ms)
 
-🌐 **English** · [Dansk](Getting-Started-da) · [Bahasa Melayu](Getting-Started-ms)
+# Getting started
 
 ## You need
 

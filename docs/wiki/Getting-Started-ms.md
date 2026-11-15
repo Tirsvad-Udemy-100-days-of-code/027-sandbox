@@ -1,6 +1,6 @@
-# Bermula
+[English](Getting-Started) · [Dansk](Getting-Started-da) · **Bahasa Melayu**
 
-🌐 [English](Getting-Started) · [Dansk](Getting-Started-da) · **Bahasa Melayu**
+# Bermula
 
 ## Anda perlukan
 

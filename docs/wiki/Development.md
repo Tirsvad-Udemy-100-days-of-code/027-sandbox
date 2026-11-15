@@ -1,6 +1,6 @@
-# Development
+**English** · [Dansk](Development-da) · [Bahasa Melayu](Development-ms)
 
-🌐 **English** · [Dansk](Development-da) · [Bahasa Melayu](Development-ms)
+# Development
 
 ## Layout
 

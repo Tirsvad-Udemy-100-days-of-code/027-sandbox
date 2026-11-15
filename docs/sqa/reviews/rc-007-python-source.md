@@ -55,6 +55,6 @@ Go — All 16 criteria pass; the code is constants and tests only.
 
 ---
 
-[PY-001]: ../../src/day27
+[PY-001]: ../../../src/day27
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [061612b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/061612baf4f8778b8e7895079e49fca90acf3801
