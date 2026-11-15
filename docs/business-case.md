@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective O7, success criterion 8, a scope item, a risk, an assumption and a constraint exception for the baseline milestone MIL-004; spelled out SQA and QC; added the link definitions of the cited documents; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective O7, success criterion 8, a scope item, a risk, an assumption and a constraint exception for the baseline milestone MIL-004; spelled out SQA and QC; added the link definitions of the cited documents; set the domain to education; reviewed in autonomous mode, not independent | [2df3c30] |
 
 ---
 
@@ -167,3 +167,4 @@ Proceed — the scope is small, has no external dependencies and delivers a reus
 [2124708]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2124708c4b82960e3cc16134c177d420936098be
 [PP-001]: ./project-plan.md
 [MIL-004]: ./milestones/mil-004-framework-baseline.md
+[2df3c30]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2df3c30d60a0fcd26c0fa95a53b13f16905fdc9e

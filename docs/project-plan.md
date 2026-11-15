@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [2124708] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway MIL-004, its schedule row, scope coverage, dependency, risk and Gantt entries, the No-Go rule and an open issue; gave the planning assumptions their source; linked the git host milestones of MIL-001 to MIL-003; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway MIL-004, its schedule row, scope coverage, dependency, risk and Gantt entries, the No-Go rule and an open issue; gave the planning assumptions their source; linked the git host milestones of MIL-001 to MIL-003; set the domain to education; reviewed in autonomous mode, not independent | [2df3c30] |
 
 ---
 
@@ -96,3 +96,4 @@ A No-Go moves every later date by the time needed to fix it. A No-Go on [MIL-004
 [MS-139]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/milestone/139
 [MS-140]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/milestone/140
 [MS-539]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/milestone/539
+[2df3c30]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox/commit/2df3c30d60a0fcd26c0fa95a53b13f16905fdc9e
