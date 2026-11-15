@@ -1,6 +1,6 @@
-# Brug
+[English](Usage) · **Dansk** · [Bahasa Melayu](Usage-ms)
 
-🌐 [English](Usage) · **Dansk** · [Bahasa Melayu](Usage-ms)
+# Brug
 
 Når det virtuelle miljø er aktivt, kører `python -m day27 <demo>` én demo.
 

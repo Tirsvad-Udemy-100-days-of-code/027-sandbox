@@ -1,6 +1,6 @@
-# Penggunaan
+[English](Usage) · [Dansk](Usage-da) · **Bahasa Melayu**
 
-🌐 [English](Usage) · [Dansk](Usage-da) · **Bahasa Melayu**
+# Penggunaan
 
 Apabila persekitaran maya aktif, `python -m day27 <demo>` menjalankan satu demo.
 

@@ -4,17 +4,10 @@
 - [Getting started](Getting-Started)
 - [Usage](Usage)
 - [Development](Development)
+- [Project Documents](Project-Documents)
 
-**Dansk**
+**Languages**
 
-- [Hjem](Home-da)
-- [Kom i gang](Getting-Started-da)
-- [Brug](Usage-da)
-- [Udvikling](Development-da)
-
-**Bahasa Melayu**
-
-- [Utama](Home-ms)
-- [Bermula](Getting-Started-ms)
-- [Penggunaan](Usage-ms)
-- [Pembangunan](Development-ms)
+- English: [Home](Home)
+- Dansk: [Hjem](Home-da)
+- Bahasa Melayu: [Utama](Home-ms)

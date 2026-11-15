@@ -1,6 +1,6 @@
-# 027-sandbox
+[English](Home) · **Dansk** · [Bahasa Melayu](Home-ms)
 
-🌐 [English](Home) · **Dansk** · [Bahasa Melayu](Home-ms)
+# 027-sandbox
 
 Udemy "100 Days of Code", dag 27: Tkinter-vinduer, labels, knapper,
 indtastningsfelter og layoutstyring samt standardværdier, `*args` og `**kwargs`.
@@ -14,5 +14,6 @@ afhængigheder ved kørsel.
 | [Kom i gang](Getting-Started-da) | Oprette et `.venv` og køre testene på Windows, Linux Debian eller macOS |
 | [Brug](Usage-da) | Køre eksemplerne og Tkinter-vinduerne og se, hvad hvert af dem viser |
 | [Udvikling](Development-da) | Kende opbygningen, kontrollerne, CI-pipelinen og hvordan kildedokumentationen bygges |
+| [Projektdokumenter](Project-Documents-da) | Læse projektets plan og gennemgangsdokumenter |
 
 [README i repositoriet](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox) er den korte version.

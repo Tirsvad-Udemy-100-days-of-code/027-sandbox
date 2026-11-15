@@ -1,6 +1,6 @@
-# Udvikling
+[English](Development) · **Dansk** · [Bahasa Melayu](Development-ms)
 
-🌐 [English](Development) · **Dansk** · [Bahasa Melayu](Development-ms)
+# Udvikling
 
 ## Opbygning
 

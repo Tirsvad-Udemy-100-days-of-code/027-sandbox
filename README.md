@@ -139,9 +139,12 @@ Open `docs/api/html/index.html`. The output folder is ignored by git.
 src/day27/        the package: arguments, logic, windows, constants, __main__
 tests/            pytest tests
 docs/             project documents, reviews and screenshots (docs/images)
+docs/wiki/        wiki pages in en, da and ms
 .gitea/workflows/ continuous integration
 Doxyfile          Doxygen configuration
 pyproject.toml    project and tool configuration
+.editorconfig     editor settings of the framework baseline
+.env.example      placeholders for the tokens of the framework scripts
 framework/        the SQA and QC framework (a git submodule)
 ```
 
@@ -167,8 +170,6 @@ The documents a newcomer needs, in reading order.
 | [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
 | [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
 | [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
-| [Framework README][framework-readme] | The framework this project uses |
-| [Framework changelog][framework-changelog] | What changed in each framework release |
 
 ---
 
@@ -181,7 +182,5 @@ The documents a newcomer needs, in reading order.
 [milestones]: ./docs/milestones/
 [registry]: ./docs/artifact-registry.md
 [TM-001]: ./docs/sqa/traceability-matrix.md
-[framework-readme]: ./framework/README.md
-[framework-changelog]: ./framework/CHANGELOG.md
 [shot-button]: ./docs/images/button-entry-after.png
 [shot-widgets]: ./docs/images/widget-showcase.png

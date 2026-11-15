@@ -1,6 +1,6 @@
-# Usage
+**English** · [Dansk](Usage-da) · [Bahasa Melayu](Usage-ms)
 
-🌐 **English** · [Dansk](Usage-da) · [Bahasa Melayu](Usage-ms)
+# Usage
 
 With the virtual environment active, `python -m day27 <demo>` runs one demo.
 

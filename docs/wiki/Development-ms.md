@@ -1,6 +1,6 @@
-# Pembangunan
+[English](Development) · [Dansk](Development-da) · **Bahasa Melayu**
 
-🌐 [English](Development) · [Dansk](Development-da) · **Bahasa Melayu**
+# Pembangunan
 
 ## Struktur
 

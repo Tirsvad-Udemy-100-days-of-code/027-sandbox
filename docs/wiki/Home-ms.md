@@ -1,6 +1,6 @@
-# 027-sandbox
+[English](Home) · [Dansk](Home-da) · **Bahasa Melayu**
 
-🌐 [English](Home) · [Dansk](Home-da) · **Bahasa Melayu**
+# 027-sandbox
 
 Udemy "100 Days of Code", hari ke-27: tetingkap, label, butang, medan input dan
 pengurus susun atur Tkinter, serta nilai lalai, `*args` dan `**kwargs`. Kod
@@ -14,5 +14,6 @@ tanpa kebergantungan semasa larian.
 | [Bermula](Getting-Started-ms) | Menyediakan `.venv` dan menjalankan ujian di Windows, Linux Debian atau macOS |
 | [Penggunaan](Usage-ms) | Menjalankan contoh dan tetingkap Tkinter serta melihat apa yang dipaparkan |
 | [Pembangunan](Development-ms) | Mengetahui struktur, semakan, saluran CI dan cara membina dokumentasi sumber |
+| [Dokumen Projek](Project-Documents-ms) | Membaca pelan dan rekod semakan projek |
 
 [README repositori](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/027-sandbox) ialah versi ringkas.
